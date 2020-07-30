@@ -1,7 +1,7 @@
 module.exports = {
-  testeEnviroment: 'jsdom',
+  testEnvironment: 'jsdom',
   testPathIgnorePatterns: ['/node_modules/', '/.next/'],
   collectCoverage: true,
-  CollectCoverageFrom: ['src/**/*.ts(x)'],
-  setupFilesAfterEnv: ['<rootDir/>/.jest/setup.ts']
+  collectCoverageFrom: ['src/**/*.ts(x)'],
+  setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts']
 }
